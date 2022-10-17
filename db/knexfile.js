@@ -19,24 +19,3 @@ module.exports = {
     },
   },
 };
-
-// module.exports = {
-//   development: {
-//     client: "postgresql",
-//     connection: {
-//       // TODO change to your db name
-//       database: "bipi_assignment",
-
-//       // change to your db user
-//       user: "phanhuycong",
-//       password: "postgres",
-//     },
-//     pool: {
-//       min: 2,
-//       max: 10,
-//     },
-//     migrations: {
-//       tableName: "knex_migrations",
-//     },
-//   },
-// };
