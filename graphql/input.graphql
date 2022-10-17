@@ -1,0 +1,12 @@
+input ModifiedMerchantInput {
+  name: String
+  phoneNumber: String
+  latitude: Float
+  longitude: Float
+  isActive: Boolean
+}
+
+input MerchantOrderByInput {
+  column: String!
+  order: Sort!
+}

@@ -1,0 +1,5 @@
+type Mutation {
+  createMerchant(data: ModifiedMerchantInput!): Merchant
+  updateMerchant(id: Int!, data: ModifiedMerchantInput!): Merchant
+  toggleActiveMerchant(id: Int!): ToggleActiveMerchantResponse
+}

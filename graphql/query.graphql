@@ -1,0 +1,8 @@
+type Query {
+  getMerchants(
+    page: Int!
+    limit: Int!
+    orderBy: MerchantOrderByInput
+  ): [Merchant]!
+  getMerchantDetail(id: Int!): Merchant!
+}

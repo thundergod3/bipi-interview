@@ -1,0 +1,17 @@
+enum Sort {
+  asc
+  desc
+}
+
+type Merchant {
+  id: Int!
+  name: String
+  phoneNumber: String
+  latitude: Float
+  longitude: Float
+  isActive: Boolean
+}
+
+type ToggleActiveMerchantResponse {
+  message: String
+}
